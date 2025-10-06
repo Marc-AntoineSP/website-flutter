@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <MessageBarOnline avatar='pic'/>
+      <MessageBarOnline avatar='pic' name='La truc'/>
     </>
   )
 }
