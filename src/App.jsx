@@ -1,4 +1,5 @@
 import './App.css'
+import MessageBar from './components/messageBarOnline'
 import MessageBarOnline from './components/messageBarOnline'
 import SearchBar from './components/searchBar'
 
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      <MessageBarOnline avatar='pic' name='La truc'/>
+      <MessageBar avatar='pic' name='La truc' is_online={false}/>
     </>
   )
 }

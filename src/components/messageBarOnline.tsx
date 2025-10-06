@@ -1,7 +1,7 @@
-export default function MessageBarOnline(props:{avatar:string, name:string}){
+export default function MessageBar(props:{avatar:string, name:string, is_online:boolean}){
     return (
         <section id="" className="p-4 bg-white flex justify-start items-start gap-5">
-            <div className="avatar">
+            <div className={`avatar ${props.is_online ? "avatar-online" : "avatar-offline"}`}>
                 <div className="rounded-full w-24">
                     <img src={`/assets/${props.avatar}.png`} />
                 </div>
