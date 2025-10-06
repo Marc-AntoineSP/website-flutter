@@ -1,13 +1,13 @@
 import './App.css'
-import InputMessageField from './components/inputMessageField'
-import MessageBubble from './components/messageBubble';
+import ConversationColumn from './components/conversationColomn';
+import MessageColumn from './components/messageColumn';
 
 function App() {
   return (
-    <body data-theme='light'>
-        <MessageBubble message={"Blabla"} is_user1={true}/>
-        <MessageBubble message={"Blabla"} is_user1={false}/>
-    </body>
+    <div data-theme="light" className="w-screen h-screen flex justify-center">
+      <ConversationColumn />
+      <MessageColumn />
+    </div>
   );
 }
 

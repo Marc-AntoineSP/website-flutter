@@ -1,4 +1,4 @@
-export default function SearchBar(props:{message:string}){
+export default function SearchBar(){
     return (
         <nav className="
             flex gap-2.5 p-2.5 bg-neutral justify-center items-center
