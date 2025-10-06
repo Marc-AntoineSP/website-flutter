@@ -1,13 +1,12 @@
 import './App.css'
-import HeaderBar from './components/headerBar'
-import MessageBar from './components/messageBarOnline'
+import InputMessageField from './components/inputMessageField'
 
 function App() {
 
   return (
     <>
     <body data-theme='light'>
-        <HeaderBar avatar='pic' name='pwet'/>
+        <InputMessageField/>
     </body>
 
     </>
